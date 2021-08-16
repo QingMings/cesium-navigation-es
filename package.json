@@ -1,0 +1,30 @@
+{
+  "name": "cesium-navigation-es",
+  "version": "1.0.0",
+  "main": "./dist/cesium-navigation-es.es.js",
+  "module": "./dist/cesium-navigation-es.umd.js",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/cesium-navigation-es.es.js",
+      "require": "./dist/cesium-navigation-es.umd.js"
+    }
+  },
+  "scripts": {
+    "build": "vite build"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "vite": "^2.5.0"
+  },
+  "dependencies": {
+    "hammerjs": "^2.0.8",
+    "markdown-it": "^8.4.2",
+    "markdown-it-sanitizer": "^0.4.3"
+  },
+  "peerDependencies": {
+    "cesium": "^1.84.0"
+  }
+}
