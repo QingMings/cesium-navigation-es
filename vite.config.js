@@ -9,7 +9,7 @@ export default defineConfig({
     },
     lib: {
       formats: ["es", "umd"],
-      entry: resolve(__dirname, "./lib/viewerCesiumNavigationMixin.js"),
+      entry: resolve(__dirname, "./lib/index.js"),
       name: "cesium-navigation-es",
     },
     rollupOptions: {
