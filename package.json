@@ -5,7 +5,8 @@
   "module": "dist/cesium-navigation-es.umd.js",
   "style": "dist/style.css",
   "files": [
-    "dist"
+    "dist",
+    "dist/*.css"
   ],
   "exports": {
     ".": {
