@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "./dist/cesium-navigation-es.es.js",
   "module": "./dist/cesium-navigation-es.umd.js",
-  "style": "./dist/style.css",
+  "style": "dist/style.css",
   "files": [
     "dist"
   ],
